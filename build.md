@@ -10,8 +10,8 @@ Patches: revanced-patches-2.104.1.jar
   
 **App Versions:**  
 Twitter: 9.65.3-release.0  
-TikTok: 26.7.15  
 Reddit: 2022.41.1  
+TikTok: 26.7.15  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
