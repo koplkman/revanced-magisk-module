@@ -6,12 +6,12 @@ Patches: revanced-patches-2.116.0.jar
 ### Features
 * **youtube/theme:** make amoled the default color for dark theme background\n  
 **App Versions:**  
-YouTube: 17.43.36  
 Music (arm64-v8a): 5.31.50  
-Twitch: 14.2.0  
+YouTube: 17.43.36  
 Twitter: 9.65.5-release.0  
-Reddit: 2022.43.0  
+Twitch: 14.2.0  
 TikTok: 27.0.16  
+Reddit: 2022.43.0  
 Music (arm-v7a): 5.31.50  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
