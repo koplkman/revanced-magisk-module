@@ -2,7 +2,7 @@
 
 [main-config]
 compression-level = 9         # compression level for module zips. between 1 and 9
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 3             # max number of concurrent building jobs
 update-prebuilts = true       # dont touch this
 build-mindetach-module = true
@@ -11,7 +11,7 @@ build-mindetach-module = true
 [YouTube]
 enabled = true                                                        # add 'enabled = false' key to entries to not build them
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "debugging"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
+excluded-patches = "debugging debugging swipe-controls hide-endscreen-cards disable-fullscreen-panels hide-cast-button"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # whitespace seperated list of patches to include
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
@@ -72,13 +72,13 @@ version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Citra]
-enabled = false
+enabled = true
 build-mode = "apk"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
 
 [Backdrops]
-enabled = false
+enabled = true
 build-mode = "apk"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/"
@@ -108,7 +108,7 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/awedea/nyx-music-player/"
 
 [IconPackStudio]
-enabled = false
+enabled = true
 version = "latest"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
