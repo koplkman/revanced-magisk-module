@@ -1,12 +1,14 @@
 YouTube: 18.19.35  
 YouTube-Extended: 18.17.43  
-Music-arm64: 5.39.52  
-Music-arm: 5.39.52  
-Twitter: 9.90.0-release.0  
+Music (arm64-v8a): 5.39.52  
+Music (arm-v7a): 5.39.52  
+Music-Extended (arm64-v8a): 6.05.51  
+Twitter: 9.91.0-release.0  
 Twitch: 14.6.1  
-TikTok: 29.7.4  
+TikTok: 29.9.1  
+Reddit: 2023.22.0  
 
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
+Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
@@ -40,7 +42,6 @@ YouTube Music
 - [European Countries](https://crowdin.com/project/revancedextendedeu)
 - [Other Countries](https://crowdin.com/project/revancedextended)
 ---
-  
 CLI: j-hc/revanced-cli-2.22.0-all.jar  
 Integrations: revanced/revanced-integrations-0.109.0.apk  
 Patches: revanced/revanced-patches-2.175.0.jar  
@@ -68,5 +69,4 @@ Patches: revanced/revanced-patches-2.175.0.jar
 * **youtube/hide-shorts-components:** hide shorts info panel ([#2278](https://github.com/revanced/revanced-patches/issues/2278)) ([a5b323d](https://github.com/revanced/revanced-patches/commit/a5b323d1d9e5b175c93f0b29732eb1123b83bab7))
 * **youtube/navigation-buttons:** use a better preference screen title ([5d7772b](https://github.com/revanced/revanced-patches/commit/5d7772be942c72e05644eca3f68d2bd6b9762d26))
 
----
-    
+---  
