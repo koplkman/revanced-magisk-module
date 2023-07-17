@@ -2,12 +2,11 @@ YouTube: 18.23.35
 YouTube-Extended: 18.25.40  
 Music (arm64-v8a): 6.10.51  
 Music-Extended (arm64-v8a): 6.10.51  
-Music-Extended (arm-v7a): 6.10.51  
-Music (arm-v7a): 6.10.51  
-Twitter: 9.71.0-release.0  
 Twitch: 15.4.1  
-TikTok: 30.3.4  
+Twitter: 9.97.0-release.0  
+TikTok: 30.4.4  
 Reddit: 2023.27.0  
+Messenger: 417.0.0.12.64  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -53,8 +52,8 @@ Etc
 - [Other Countries](https://crowdin.com/project/revancedextended)
 ---
 CLI: j-hc/revanced-cli-2.23.0-all.jar  
-Integrations: revanced/revanced-integrations-0.112.0.apk  
-Patches: revanced/revanced-patches-2.184.0.jar  
+Integrations: ReVanced/revanced-integrations-0.112.0.apk  
+Patches: ReVanced/revanced-patches-2.184.0.jar  
 
 ### [2.184.0](https://github.com/revanced/revanced-patches/compare/v2.183.1...v2.184.0) (2023-07-11)
 ### Features
