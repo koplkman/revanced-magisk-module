@@ -1,9 +1,16 @@
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "auto"
-included-patches = "remove-player-controls-background"
-excluded-patches = "always-autorepeat comments swipe-controls"
+included-patches = "materialyou"
+excluded-patches = "custom-branding-icon-revancify-blue custom-double-tap-length custom-package-name
+custom-seekbar-color custom-video-speed default-video-speed disable-hdr-video hide-autoplay-button hide-
+comment-component hide-crowdfunding-box hide-description-components hide-end-screen-cards hide-end-
+screen-overlay hide-feed-flyout-panel hide-filmstrip-overlay hide-load-more-button hide-previous-next-button
+hide-suggested-actions hide-suggestions-shelf hide-time-stamp swipe-controls theme translations"
 
 [Twitch]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
@@ -17,7 +24,7 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "auto"
 included-patches = "custom-branding-music-name"
-excluded-patches = "custom-branding-icon-revancify-blue translations"
+excluded-patches = "custom-branding-icon-revancify-blue custom-package-name translations"
 
 [Tiktok]
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
