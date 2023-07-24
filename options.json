@@ -1,11 +1,10 @@
-        
 [
-  {
-    "patchName": "Custom branding",
-    "options": [
+{
+"patchName": "Custom branding YouTube name",
+"options": [
       {
-        "key": "appName",
-        "value": "Youtube"
+        "key": "YouTubeAppName",
+        "value": "YTeX"
       }
     ]
   },
@@ -14,7 +13,7 @@
     "options": [
       {
         "key": "MusicLongName",
-        "value": "YT-Music"
+        "value": "YT-M"
       },
       {
         "key": "MusicShortName",
