@@ -6,88 +6,40 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
-version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
-[YouTube-Extended]
-app-name = "YouTube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
+apkmirror-arch = "both"
 build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+included-patches = "force-premium-heading materialyou"
+excluded-patches = "custom-branding-icon-revancify-blue custom-double-tap-length hide-comment-component hide-description-components hide-end-screen-cards swipe-controls"
 
 [Music]
-build-mode = "both"
-excluded-patches = ""
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
-
-[Music-Extended]
-app-name = "Music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "both"
+build-mode = "both"
+included-patches = "custom-branding-icon-mmt"
+excluded-patches = "custom-branding-icon-revancify-blue"
 
-[Twitter]
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
-
-[Twitch]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-
-[TikTok]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+[Tiktok]
+apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+included-patches = "sim-spoof"
 
 [Reddit]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
 
-[Messenger]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-apkmirror-arch = "arm64-v8a"
+[Twitter]
+apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
-[Citra]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
-apkmirror-arch = "arm64-v8a"
-
-[Backdrops]
-enabled = false
-uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-
-[WarnWetter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/"
-
-[Windyapp]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
-
-[TickTick]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
-apkmirror-arch = "arm64-v8a"
-
-[Tasker]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
-
-[Photomath]
-enabled = false
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
+[Instagram]
+apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
