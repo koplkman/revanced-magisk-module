@@ -13,7 +13,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 apkmirror-arch = "both"
 build-mode = "both"
-included-patches = "force-premium-heading materialyou"
+included-patches = ""
 excluded-patches = "custom-branding-icon-revancify-blue custom-double-tap-length hide-comment-component hide-description-components hide-end-screen-cards swipe-controls"
 
 [Music]
